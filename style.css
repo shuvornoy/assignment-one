@@ -1,20 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;1,200&family=Poppins:wght@300;500;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto:wght@400;500;700&display=swap');
+section{
+   padding: 30px 0;
+ }
 body{
-font: roboto;
+    font-family: 'Poppins', serif;
 }
-.home-bg{
-    background: url(./img/donation13.jpg);
+.home-bg{  
+ background: linear-gradient( rgba(26, 32, 65, 0.7),rgba(23, 27, 46, 0.7) ),url(./img/donation3.jpg);
     width: 100%;
     height: 100vh;
-    background-repeat: no-repeat;
-    position: relative;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .home{
     text-align: center;
-    padding-top: 20%;
+    padding-top: 18%;
     color: #fff;
 }
 .home h2{
@@ -24,7 +25,7 @@ font: roboto;
     font-size: 22px;
 }
 button{
-    background: deeppink;
+    background: #f64040;
     margin-top: 30px;
     padding: 10px;
     border-radius: 5px;
@@ -117,7 +118,7 @@ button .donate-btn{
     background: #faf5c2;
 }
 
-/*======== Donate Service End ==========*/
+/*======== Donate Plan End ==========*/
 .claint{
     display: flex;
     padding: 0 180px 0;
@@ -190,19 +191,44 @@ button .donate-btn{
 }
 .update p{
     font-size: 20px;
+    padding-bottom: 20px;
 }
-.scerch{
+.subscribe{
    text-align: center;
+   background: #f9f9c9;
+   padding: 30px 60px 60px 0;
+   margin: 20px 200px 0 200px ;
+  
 }
-.scerch input{
+.subscribe input{
     border: none;
     background: #cac7c7;
-   width: 300px;
-   height: 50px;
-   margin-left: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+    padding-left: 15px;
 }
-.scerch button{
+.subscribe .subscribe-btn{
     height: 52px;
     width: 150px;
-    padding-right: 10px;
+    border-radius: 0 5px 5px 0;
+   
+}
+.subscribe .subscribe-btn a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+/*=============== Update end ============*/
+.footer{
+    text-align: center;
+    background: #131212ee;
+    padding: 50px;
+    margin-top: 100px;
+}
+.footer h1{
+    color: #ee4f4f;
+}
+.footer p{
+    color: #fff;
 }
